@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haru fashion</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style>
+    @font-face {
+        font-family: medium1;
+        src: url("./Mazius-Extraitalic.121a71a7.ttf");
+    }
+    @font-face {
+        font-family: swiper;
+        src: url("./swiper\ icons.ttf");
+    }
+
+
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+  <div class="main w-full relative ">
+    <div class="nav fixed h-[10vh] w-full z-[9]">
+        <div class="mobile h-full w-full  px-5 lg:hidden flex items-center justify-between">
+            <i class="ri-menu-2-line font-bold text-3xl"></i>
+            <img src="./logo.svg" alt="" class="w-[35vw]">
+            <i class="ri-shopping-bag-4-line font-bold text-3xl"></i>
+        </div>
+        <div class="full screen h-full w-full bg-blue-200 hidden lg:flex justify-around items-center font-[gilroy] bg-transparent">
+            <div class="left capitalize flex gap-10 font-lighter text-lr">
+                <a href="" class="">men</a>
+                <a href="">women</a>
+                <a href="">bags</a>
+                <a href="">blogs</a>
+            </div>
+            <div class="middle w-fit">
+                <img src="./logo.svg" alt="" class=" w-[10vw]">
+            </div>
+            <div class="end flex gap-10 font-semibold text-xl">
+                <i class="ri-search-line"></i>
+                <i class="ri-account-circle-fill"></i>
+                <i class="ri-heart-line"></i>
+            <i class="ri-shopping-bag-4-line"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="first w-full h-screen flex overflow-x-auto relative overflow-y-hidden">
+        
+        <div class="icons w-full h-fit absolute z-[9] text-5xl top-1/2 left-1/2 lg:px-10 px-5 -translate-x-1/2 -translate-y-1/2 flex justify-between text-white">
+            <i class="ri-arrow-left-s-line font-thin rounded-full bg-zinc-300 w-fit lg:px-1 lg:py-1 text-black"></i>
+            <i class="ri-arrow-right-s-line font-thin rounded-full bg-zinc-300 w-fit lg:px-1 lg:py-1  text-black"></i>
+            </div> 
+        <div class="child1 w-full h-fit shrink-0 relative">
+            <div class="div absolute flex flex-col gap-5 opacity-90 items-center h-fit w-[50vw] lg:w-[30vw] bg-white lg:bg-transparent lg:items-start top-[60%]  left-1/2  -translate-x-1/2 lg:top-[30%] lg:left-[11%] lg:-translate-x-0 px-3 py-3">
+                <h1 class="rounded-[10px] text-white w-fit px-3 py-2 bg-zinc-900 text-xs font-normal mt-3">50% off</h1>
+                <h1 class=" capitalize text-4xl text-center lg:text-start lg:text-7xl lg:font-normal">new cocktail dresses</h1>
+                <a href="" class="capitalize mb-3 hover:text-green-600">shop now</a>
+            </div>
+            <img src="./curly_hair_girl-1_mobile.webp" alt="" class="lg:hidden h-[100vh] w-full object-cover"> 
+            <img src="https://haru-fashion.vercel.app/_next/image?url=%2Fbg-img%2Fcurly_hair_girl-1.jpg&w=1200&q=75" alt="" class="hidden lg:flex w-full">
+        </div>
+        <div class="child2 w-full h-screen shrink-0 bg-blue-200 relative ">
+            <div class="div absolute flex flex-col gap-5 opacity-90 items-center h-fit w-[50vw] lg:w-[40vw] bg-white lg:bg-transparent lg:items-end top-[60%]  left-1/2  -translate-x-1/2 lg:top-[30%] lg:left-[60%] lg:-translate-x-0 px-3 py-3">
+                <h1 class="rounded-[10px] text-white w-fit px-3 py-2 bg-zinc-900 text-xs font-normal mt-3">Spring Revolution</h1>
+                <h1 class=" capitalize text-4xl text-center lg:text-end lg:text-7xl lg:font-normal">night summer dresses</h1>
+                <a href="" class="capitalize mb-3 hover:text-green-600">shop now</a>
+            </div>
+            <img src="./curly_hair_white-1_mobile.webp" alt="" class="lg:hidden h-[100vh] w-full object-cover">
+            <img src="./curly_hair_white-1 full screen.webp" alt="" class="hidden lg:flex w-full">
+        </div>
+        <div class="child3 w-full h-screen shrink-0 bg-black relative ">
+            <div class="div absolute flex flex-col gap-5 opacity-90 items-center h-fit w-[50vw] lg:w-[40vw] bg-white lg:bg-transparent lg:items-start top-[60%]  left-1/2  -translate-x-1/2 lg:top-[30%] lg:left-[11%] lg:-translate-x-0 px-3 py-3">
+                <h1 class="rounded-[10px] text-white w-fit px-3 py-2 bg-zinc-900 text-xs font-normal mt-3">Spring promo</h1>
+                <h1 class=" capitalize text-4xl text-center lg:text-start lg:text-7xl lg:font-normal">the weekend promotions</h1>
+                <a href="" class="capitalize mb-3 hover:text-green-600">shop now</a>
+            </div>
+            <img src="./monigote_mobile.webp" alt="" class="lg:hidden h-[100vh] w-full object-cover">
+            <img src="./monigote full screen.webp" alt="" class=" hidden lg:flex w-full">
+        </div>
+    </div>
+    <div class="second w-full h-fit  flex flex-col lg:flex-row lg:px-28 gap-5 px-5 py-12 border-b-2">
+        <div class="box w-full lg:w-[55vw] h-[45vh] lg:h-[42vh] relative">
+            <button class="w-fit px-8 py-4 bg-white text-black absolute capitalize -translate-x-1/2 lg:-translate-x-0 hover:bg-black hover:text-white  top-[80%] lg:top-[70%] left-1/2 lg:left-[70%]">new arrivals</button>
+            <img src="https://haru-fashion.vercel.app/_next/image?url=%2Fbg-img%2Fbanner_minipage1-tablet.jpg&w=828&q=75" alt="" class="object-cover h-full lg:hidden">
+            <img src="https://haru-fashion.vercel.app/_next/image?url=%2Fbg-img%2Fbanner_minipage1.jpg&w=1920&q=75" alt="" class="hidden lg:flex object-cover w-full h-full">
+        </div>
+        <div class="box w-full lg:w-[20vw] h-[45vh] lg:h-[42vh] relative">
+            <button class="w-[55vw] lg:w-fit lg:px-10 py-4 lg:py-3 bg-white text-black absolute capitalize -translate-x-1/2 lg:-translate-x-0 hover:bg-black hover:text-white  top-[80%] lg:top-[70%] left-1/2 lg:left-[10%]">women collection</button>
+<img src="https://haru-fashion.vercel.app/_next/image?url=%2Fbg-img%2Fbanner_minipage2.jpg&w=1920&q=75" alt="" class="object-cover h-full" >
+        </div>
+        <div class="box w-full lg:w-[20vw] h-[45vh] lg:h-[42vh] relative">
+            <button class="w-fit px-8 py-4 lg:w-fit lg:px-8 py-2 lg:py-3 bg-white text-black absolute capitalize -translate-x-1/2 lg:-translate-x-0 hover:bg-black hover:text-white  top-[80%] lg:top-[70%] left-1/2 lg:left-[15%]">men collection</button>
+            <img src="https://haru-fashion.vercel.app/_next/image?url=%2Fbg-img%2Fbanner_minipage3.jpg&w=1920&q=75" alt="" class="object-cover h-full">
+        </div>
+    </div>
+    <div class="third w-full h-screen"></div>
+  </div>
+</body>
+</html>
